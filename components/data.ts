@@ -1,0 +1,109 @@
+import {
+    AudioWaveform,
+    BookOpen,
+    Bot,
+    Command,
+    Frame,
+    GalleryVerticalEnd,
+    Map,
+    PieChart,
+    Settings2,
+    SquareTerminal,
+} from "lucide-react"
+
+export const data = {
+    user: {
+        name: "Addro",
+        email: "addro@example.com",
+        avatar: "/avatars/user.jpg",
+    },
+
+    teams: [
+        {
+        name: "Acme Inc",
+        logo: GalleryVerticalEnd,
+        plan: "Enterprise",
+        },
+        {
+        name: "Acme Corp",
+        logo: AudioWaveform,
+        plan: "Startup",
+        },
+        {
+        name: "Evil Corp",
+        logo: Command,
+        plan: "Free",
+        },
+    ],
+
+    navMain: [
+        {
+            title: "Playground",
+            url: "#",
+            icon: SquareTerminal,
+            isActive: true,
+            items: [
+                { title: "History", url: "#" },
+                { title: "Starred", url: "#" },
+            ],
+        },
+
+        {
+            title: "Models",
+            url: "#",
+            icon: Bot,
+            items: [
+                {
+                title: "Genesis",
+                url: "#",
+                },
+                {
+                title: "Explorer",
+                url: "#",
+                },
+            ],
+        },
+
+        {
+            title: "Documentation",
+            url: "#",
+            icon: BookOpen,
+            items: [
+                {
+                title: "Introduction",
+                url: "#",
+                },
+            ],
+        },
+
+        {
+            title: "Settings",
+            url: "#",
+            icon: Settings2,
+            items: [
+                {
+                title: "General",
+                url: "#",
+                },
+            ],
+        },
+    ],
+
+    projects: [
+        {
+        name: "Design Engineering",
+        url: "#",
+        icon: Frame,
+        },
+        {
+        name: "Sales & Marketing",
+        url: "#",
+        icon: PieChart,
+        },
+        {
+        name: "Travel",
+        url: "#",
+        icon: Map,
+        },
+    ],
+}
